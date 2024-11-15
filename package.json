@@ -1,5 +1,5 @@
 {
-  "name": "names-function",
+  "name": "export-function",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

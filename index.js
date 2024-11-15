@@ -5,9 +5,9 @@ const name = createPerson('Lorenzo', 'Scalvini');
 console.log(name);
 
 //ES 2
-const createHobbiesObject = require('./hobbies'); // Importa la funzione da hobbies.js
+const createHobbies = require('./hobbies'); // Importa la funzione da hobbies.js
 
-const myHobbies = createHobbiesObject('Reading', 'Cycling', 'Gaming');
+const myHobbies = createHobbies('Reading', 'Music', 'Gaming');
 console.log(myHobbies); 
 
 //ES 3
